@@ -1,0 +1,33 @@
+<section class="report-header">
+  <div class="flex flex-row flex-space-between action-buttons">
+      <button md-icon-button (click)="onHandleBack()"><md-icon>keyboard_backspace</md-icon></button>
+      <p (click)="onHandleLogout()">Logout</p>
+  </div>
+  <div class="report-chips">
+    <md-chip-list>
+      <div class="flex flex-row flex-center-items">
+        <img src="../../assets/teacher-img.png" class="admin-img"/>
+        <md-chip class="address"><strong>Admin:</strong> admin@sas.io </md-chip>
+      </div>
+    </md-chip-list>
+    <md-chip-list>
+      <div class="flex flex-row flex-center-items">
+        <img src="../../assets/teacher-img.png" class="user-img"/>
+        <md-chip class="address"><strong>Teacher:</strong> abdulwahab@sas.io</md-chip>
+      </div>
+    </md-chip-list>
+  </div>
+</section>
+
+
+<md-card class="report-data">
+  <form>
+    <md-input-container class="subject">
+      <input mdInput placeholder="Subject">
+    </md-input-container>
+    <md-input-container class="subject">
+      <input mdInput placeholder="Description">
+    </md-input-container>
+    <button md-fab class="report-btn-send"><md-icon>send</md-icon></button>
+  </form>
+</md-card>

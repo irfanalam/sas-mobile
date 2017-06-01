@@ -1,0 +1,44 @@
+.tchr-header{
+    height: 180px;
+    background-color: #673ab7;
+}
+
+.list-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  margin: 5px 20px 5px 20px;
+}
+.class-info{
+    color: #fff;
+    padding: 16px;
+}
+.tchr-title{
+    color:white;
+    margin-left:20px;
+}
+
+.classes{
+    padding: 16px;
+}
+
+.classes-list{
+    margin: 16px;
+}
+
+.classes-list img{
+    height: 80px;
+    size: cover;
+}
+
+.list-item{
+    width: 100%;
+    height:60px;
+    border-radius: 8px;
+    background-color:#fff;
+    padding: 20px 10px 20px 10px;
+}
+
+.list-item:hover {
+    background-color: #d3d3d3;
+}

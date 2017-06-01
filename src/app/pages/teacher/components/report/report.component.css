@@ -1,0 +1,42 @@
+.report-header{
+    height: 180px;
+    background-color: #673ab7;
+    width: 100%;
+}
+
+.action-buttons{
+    color: #fff;
+    padding: 16px;
+}
+
+.report-chips{
+    padding: 0px 16px 16px 16px;;
+}
+
+.admin-img , .user-img{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+}
+
+.address{
+    font-size: 20px;
+    padding:0px 15px 0px 15px;
+}
+
+.report-data{
+    margin:16px;
+    height: 100%;
+    min-height: 370px;
+}
+
+.subject{
+    width: 100%;
+}
+.report-btn-send{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    margin-bottom:16px;
+    margin-right:16px;
+}

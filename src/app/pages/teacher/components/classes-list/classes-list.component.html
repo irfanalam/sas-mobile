@@ -1,0 +1,26 @@
+<section class="tchr-header">
+  <div class="flex flex-row flex-space-between class-info">
+      <button md-icon-button (click)="onHandleBack()"><md-icon>keyboard_backspace</md-icon></button>
+      <h6>Logout</h6>
+  </div>
+  <div>
+    <img src="../../assets/teacher-img.png" class="list-img"/>
+    <h5 class="tchr-title">Shoaib</h5>
+  </div>
+
+</section>
+<!--<article>
+  <md-list>
+    <md-list-item *ngFor="let folder of folders">
+      <md-icon md-list-icon>folder</md-icon>
+      <h4 md-line>{{folder.name}}</h4>
+    </md-list-item>
+  </md-list>
+</article>-->
+
+<md-card class="classes-list" (click)="onHandleClassList()">
+  <img md-card-image src="../../../../../assets/class-list-bg2.jpg">
+  <md-card-content>
+    <h5>Class</h5>
+  </md-card-content>
+</md-card>

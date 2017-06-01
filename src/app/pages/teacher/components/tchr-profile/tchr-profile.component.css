@@ -1,0 +1,45 @@
+.tchr-profile-header{
+    height: 180px;
+    background-color: #673ab7;
+    width: 100%;
+}
+
+.action-buttons{
+    color: #fff;
+    padding: 15px;
+}
+
+.tchr-profile{
+    margin: -50px 16px 16px 16px;
+}
+
+.tchr-profile-picture{
+    height:120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-top:-80px;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.tchr-title{
+    text-align: center;
+    margin:10px;
+}
+
+.tchr-details{
+    border: 1px solid #d3d3d3;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.tchr-info{
+    padding: 15px;
+}
+
+.tchr-info p{
+    font-size: 16px;
+}
